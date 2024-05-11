@@ -1,5 +1,4 @@
 import { Client, REST, Routes } from "discord.js";
-import { CommandInteraction } from "discord.js";
 import { config as dotEnvInit } from "dotenv";
 import commands from "./slash-commands/commands.json";
 
