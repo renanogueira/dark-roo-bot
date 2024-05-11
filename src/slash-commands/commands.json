@@ -1,0 +1,55 @@
+[
+    {
+      "name": "create-event",
+      "description": "Create a new event",
+      "options": [
+        {
+          "type": 3,
+          "name": "type",
+          "description": "Event type",
+          "required": true,
+          "choices": [
+            {
+              "name": "War of Emperium",
+             "value": "woe"
+            },
+            {
+              "name": "Guild League",
+             "value": "gvg"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "name": "adversary",
+          "description": "Event adversary",
+          "required": true
+        },
+        {
+          "type": 6,
+          "name": "principal-caller",
+          "description": "Event principal caller",
+          "required": true
+        },
+        {
+          "type": 3,
+          "name": "date",
+          "description": "Event date YYYY-MM-DD",
+          "required": true
+        },
+        {
+          "type": 3,
+          "name": "hour",
+          "description": "Event hour",
+          "required": true
+        },
+        {
+          "type": 6,
+          "name": "sub-caller",
+          "description": "Event sub-caller",
+          "required": false
+        }
+      ]
+    }
+  ]
+  

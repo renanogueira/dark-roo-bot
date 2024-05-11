@@ -1,0 +1,3 @@
+//TODO: Colocar recompensas talvez
+//TODO: Adicionar opção de mandar DM para cada usuário pedindo para acessar o link
+//TODO: Colocar validadores de informações
